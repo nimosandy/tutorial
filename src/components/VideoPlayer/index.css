@@ -1,0 +1,70 @@
+.video-container {
+  margin: auto;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #256faf;
+}
+
+.responsive-container {
+  width: 640px;
+  height: 360px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 20px;
+  padding: 8px 30px 8px 30px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.bg-container {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReqgWvIfnbWQq1K9eMEEBeejCEjjYujLqPDg&usqp=CAU');
+  background-size: cover;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fdorisyuan0923%2Fnew-year-backdrop%2F&psig=AOvVaw2SaRau2P8h8NQqIUE_ChFu&ust=1640869327099000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOim5uqIifUCFQAAAAAdAAAAABAP');
+  }
+}
+
+.main-heading {
+  font-size: 40px;
+  color: #a432a8;
+  text-align: center;
+  font-weight: bold;
+}
+
+.name-section {
+  color: #1fd128;
+  font-style: italic;
+}
+
+.name-category {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.submit-button {
+  color: #d11f52;
+  background-color: #1fd1c2;
+  font-size: 20px;
+}
